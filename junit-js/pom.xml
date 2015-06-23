@@ -4,11 +4,33 @@
 
 	<groupId>org.onestonesoup</groupId>
 	<artifactId>junit-js</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
-
 	<name>junit-js</name>
-	<url>http://maven.apache.org</url>
+<description>An abstract class for creating javascript tests to run from JUnit</description>
+	<url>https://github.com/nikcross/junit-js</url>
+	
+ <developers>
+    <developer>
+      <name>Nik Cross</name>
+      <email>nikcross@wet-wired.com</email>
+      <organization>Wet-Wired.com</organization>
+      <organizationUrl>http://www.wet-wired.com</organizationUrl>
+    </developer>
+  </developers>
+  
+<licenses>
+  <license>
+    <name>MIT License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>
+</licenses>
+
+<scm>
+  <connection>scm:git:git@github.com:/nikcross/junit-js.git</connection>
+  <developerConnection>scm:git:git@github.com:/nikcross/junit-js.git</developerConnection>
+  <url>git@github.com:/nikcross/junit-js.git</url>
+</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
